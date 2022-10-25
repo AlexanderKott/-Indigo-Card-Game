@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: You can override the toString(), hashCode(), and equals() functions.
+- text: You can override automatically generated functions more than once within one
+    class.
+- text: Functions will be automatically generated for all the properties declared
+    inside the class body.
+- text: You can override functions for var and val properties.
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8528#comment
+status: Solved
+record: -1
+local_check: false
